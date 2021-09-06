@@ -18,10 +18,10 @@ After this, we imported the accidents, casualties and vehicles datasets into SAS
 
 We then used SAS to investigate the distribution of casualty age for each type of casualty (slight, serious or fatal).
 
-![image](https://user-images.githubusercontent.com/88533856/131511992-c5553cce-aa8d-4702-a082-70411a241d0f.png)
+![image](https://user-images.githubusercontent.com/88533856/132186170-234de3c2-1c92-4a00-8083-2f0f378baec5.png)
 #### Figure 2: Boxplots of casualty age by casualty severity.
 
-![image](https://user-images.githubusercontent.com/88533856/131512211-0c8949f0-8c84-4bf3-84f5-e39f9d864726.png)
+![image](https://user-images.githubusercontent.com/88533856/132186265-e7c094c9-12e8-41c0-8c5a-35ae8f9a83e2.png)
 #### Figure 3: Density plot of casualty age by casualty severity.
 
 Although the three casualty severities have very similar age distributions, fatal injuries seem to occur to slightly older people than slight or serious injuries. This could suggest that older people are more likely to die from road accidents. Looking at the distributions of casualty ages, the interquartile range spans from early twenties to approximately the age of fifty for slight and serious accidents, and from mid twenties to early sixties for fatal accidents. However, for each casualty type the range covers all ages.
@@ -29,10 +29,10 @@ Although the three casualty severities have very similar age distributions, fata
 Next, we created a stacked bar chart showing the frequency count of each vehicle involved in a road accident, stacked by severity of casualty hit by that vehicle. Unsurprising, cars were by far the most common type of vehicle involved in a road accident, followed by bicycles and motorbikes under 125cc.
 The plot in Fig. 4 also shows that the vast majority of accidents only lead to slight injuries for each casualty.
 
-![image](https://user-images.githubusercontent.com/88533856/131512329-2d008ff7-0f05-484b-80bd-fe5542adb25a.png)
+![image](https://user-images.githubusercontent.com/88533856/132186320-806d245e-7358-4419-99d1-fdf26c23f96a.png)
 #### Figure 4: A bar chart showing the frequency count of each vehicle involved in a road accident, stacked by severity of casualty hit by that vehicle.
 
 We then looked at what time accidents tended to occur by creating a histogram showing the percent of accidents occurring in each 20-min period throughout the day, as seen in Fig. 5. Accidents occur most frequently around the ‘rush hour’ times of 9am and 5pm, as seen by the two peaks surrounding these times. Accidents occur at the lowest rate in the early hours of the day (there are far less cars on the road at this time).
 
-![image](https://user-images.githubusercontent.com/88533856/131512458-9791f17f-6d08-428c-bd3f-ee248c176500.png)
+![image](https://user-images.githubusercontent.com/88533856/132186409-b4ab6772-e8b0-49c7-88eb-f0a623eb6e3f.png)
 #### Figure 5: A density plot of the number of accidents occurring at each 20-min time interval throughout the day.
