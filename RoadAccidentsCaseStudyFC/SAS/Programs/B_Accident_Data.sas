@@ -32,27 +32,26 @@ ods pdf file="&sas_root.\Report\Graphs_Road_Report.pdf"  ; *location to save as 
 title "Boxplot of Casualty Age by Severity of Casualty";
 proc sgplot data=work.joined_no_miss;
   vbox age_of_casualty / group=casualty_Severity;
-   xaxis discreteorder=data; 
+  styleattrs datacolors=(blue orange red);
 run;
 
 
 title "Density Plot of Casualty Age by Severity of Casualty";
 proc sgplot data=work.joined_no_miss;
   density age_of_casualty / group=casualty_Severity;
-   xaxis discreteorder=data; 
+   styleattrs datacontrastcolors=(blue orange red);
 run;
 
 
 title "Bar Chart of The Amount of Vehicles Involved in Accidents per Vehicle Type, Stacked by Severity of Casualty";
 proc sgplot data=work.joined_no_miss;                                                                                                       
    vbar vehicle_type / group=casualty_Severity ;
+   styleattrs datacolors=(red orange blue);
 run;
 
 
-
-
 title "Histogram of Time of Accident";
-proc sgplot data=staging.accidents;                                                                                                       
+proc sgplot data=raw.accidents;                                                                                                       
    histogram time ;
 run;
 
