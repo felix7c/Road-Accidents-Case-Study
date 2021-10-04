@@ -17,8 +17,6 @@
 
 
 
-
-
 *DO NOT EDIT BELOW THIS POINT;
 
 %let sas_root= &root.\RoadAccidentsCaseStudyFC\SAS;
@@ -26,8 +24,6 @@
 
 
 *libname statements;
-
-*could add input filename but not needed;
 
 libname raw "&sas_root.\Data\2_Raw";
 libname staging "&sas_root.\Data\3_Staging";
@@ -38,11 +34,6 @@ libname excepts "&sas_root.\Data\6_Exceptions"; *cannot name library exceptions 
 libname shared "&sas_root.\Shared"; *For formats etc;
 
 filename macros "&sas_root.\Macros";
-
-
-
-*could set pagesize,options etc here??;
-*maybe set default options eg for the outputted pdfs;
 
 
 options mautosource
